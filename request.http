@@ -1,5 +1,19 @@
 
-POST http://localhost:3333/
+GET  http://localhost:3333/test1
+
+
+###
+
+POST http://localhost:3333/test2
+Content-Type: application/json
+
+{
+    "numero": 34
+}
+
+###
+
+POST http://localhost:3333/test3
 Content-Type: application/json
 
 [
@@ -127,7 +141,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3333/participacao
+POST http://localhost:3333/test4
 Content-Type: application/json
 
 [
@@ -147,7 +161,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3333/reverse
+POST http://localhost:3333/test5
 Content-Type: application/json
 
 {
